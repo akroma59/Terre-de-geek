@@ -110,8 +110,52 @@ textarea {
 ~~~~~~~~ Start Common rules ~~~~~~~~~
 */
 
+.produit {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 30%;
+    width: 80%;
+}
+.produit img{
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+article {
+    width: 40%;
+    display: block;
+    border: 1px black solid;
+}
 ul {
-list-style-type: none;
+    margin-left:0;
+    padding-left:0;
+    list-style-type: none;
+}
+.description{
+    margin-left: 180px;
+}
+
+.detail{    
+    width: 80%;
+    color: white;
+    border: white 1px solid;
+    margin: 0;
+}
+.detail h3{
+    text-align: center;
+}
+.detail img{
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.detail ul{
+    display: block;
 }
 /*
 ~~~~~~~~ End Common Rules ~~~~~~~~~
@@ -156,20 +200,11 @@ main {
 aside {
     background-color: red;
     width: 20%;
-    height: 100vh;
+    height: 104vh;
     display:flex;
     text-align: left;
 }
 
-.produit {
-    height: 30%;
-    width: 30%;
-}
-.produit img{
-    display: flex;
-    flex-direction: column;
-    width: 20%;
-}
 /*
 ~~~~~~~~ End Main Rules ~~~~~~~~~
 */
