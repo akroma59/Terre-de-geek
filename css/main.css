@@ -209,6 +209,17 @@ aside {
     display:flex;
 }
 
+.locaux {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    width: 100%;
+}
+
+.map {
+    width: 50%;
+    height: 50%;
+}
 /*
 ~~~~~~~~ End Main Rules ~~~~~~~~~
 */
