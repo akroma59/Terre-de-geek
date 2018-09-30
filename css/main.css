@@ -110,22 +110,71 @@ textarea {
 ~~~~~~~~ Start Common rules ~~~~~~~~~
 */
 
+.produit {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 30%;
+    width: 80%;
+}
+.produit img{
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    margin: 0;
+}
+article {
+    width: 40%;
+    display: block;
+    border: 1px black solid;
+    margin: 10px auto;
+}
+article ul{
+    padding: 0;
+    margin: 0;
+}
 ul {
-list-style-type: none;
+
+    list-style-type: none;
+}
+.description{
+    margin-left: 180px;
+}
+
+.detail{ 
+    width: 80%;
+    border: white 1px solid;
+    margin: 0;
+}
+.detail h3{
+    text-align: center;
+}
+.detail img{
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pages a {
+    text-decoration: none;
+    color: white;
 }
 /*
 ~~~~~~~~ End Common Rules ~~~~~~~~~
 */
-
-
 
 /*
 ~~~~~~~~ Start Header rules ~~~~~~~~~
 */
 
 header {
-    background-color: aqua;
-    height: 45vh;
+    background-color: #235789;
+    height: 35vh;
     display:flex;
     align-items: center;
     text-align: center;
@@ -133,8 +182,7 @@ header {
 
 .titre {
     width: 100%;
-    text-align: center; 
-    align-items: center;
+    color: white;
 }
 
 
@@ -150,26 +198,17 @@ video {
 */
 
 main {
-    background-color: blue;
+    background-color: #23395b;
     display: flex;
+    color: white;
 }
 aside {
-    background-color: red;
+    background-color: #0d1321;
     width: 20%;
-    height: 100vh;
+    height: 104vh;
     display:flex;
-    text-align: left;
 }
 
-.produit {
-    height: 30%;
-    width: 30%;
-}
-.produit img{
-    display: flex;
-    flex-direction: column;
-    width: 20%;
-}
 /*
 ~~~~~~~~ End Main Rules ~~~~~~~~~
 */
@@ -360,3 +399,4 @@ aside {
         page-break-after: avoid;
     }
 }
+
