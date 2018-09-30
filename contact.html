@@ -13,7 +13,7 @@
   <!-- Place favicon.ico in the root directory -->
 
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/contact.css">
 </head>
 
 <body>
@@ -42,15 +42,47 @@
     <aside>
         <nav class="pages">
             <ul>
-                <a href="index.html"><li>Articles</li></a>
+                <a href="index.html"><li>Accueil</li></a>
+                <a href="articles.html"><li>Articles</li></a>
                 <a href="locaux.html"><li>Nos locaux</li></a>
                 <a href="contact.html"><li>Nous contacter</li></a>
             </ul>
         </nav>
     </aside>
-    <section class="contenu">
-        <div class="locaux">
-            <!-- ici lien google maps -->
+    <section class="contact">
+        <div class="formulaire">
+            <!-- Learn about this code on MDN: https://developer.mozilla.org/fr/docs/Web/Guide/HTML/Formulaires/Mon_premier_formulaire_HTML -->
+
+<form action="http://www.cs.tut.fi/cgi-bin/run/~jkorpela/echo.cgi" method="post">
+    <div>
+      <label for="nom">Nom :</label>
+      <input type="text" id="nom" name="user_name">
+    </div>
+    <div>
+      <label for="numero">Numéro de téléphone:</label>
+      <input type="text" id="numero" name="user_number">
+    </div>
+    <div>
+      <label for="courriel">Courriel :</label>
+      <input type="email" id="courriel" name="user_email">
+    </div>
+    <div>
+      <label for="age">Age :</label>
+      <input type="text" id="age" name="user_name">
+    </div>
+    <div>
+      <label for="objet">Objet de contact :</label>
+      <input type="text" id="objet" name="user_name">
+    </div>
+    <div>
+      <label for="message">Message :</label>
+      <textarea id="message" name="user_message"></textarea>
+    </div>
+   
+    <div class="button">
+      <button type="submit">Envoyer le message</button>
+    </div>
+  </form>
         </div>
     </section>
 </main>
