@@ -139,9 +139,8 @@ ul {
     margin-left: 180px;
 }
 
-.detail{    
+.detail{ 
     width: 80%;
-    color: white;
     border: white 1px solid;
     margin: 0;
 }
@@ -154,21 +153,21 @@ ul {
     margin-left: auto;
     margin-right: auto;
 }
-.detail ul{
-    display: block;
+
+.pages a {
+    text-decoration: none;
+    color: white;
 }
 /*
 ~~~~~~~~ End Common Rules ~~~~~~~~~
 */
-
-
 
 /*
 ~~~~~~~~ Start Header rules ~~~~~~~~~
 */
 
 header {
-    background-color: aqua;
+    background-color: #235789;
     height: 45vh;
     display:flex;
     align-items: center;
@@ -194,15 +193,17 @@ video {
 */
 
 main {
-    background-color: blue;
+    background-color: #23395b;
     display: flex;
+    color: white;
 }
 aside {
-    background-color: red;
+    background-color: #0d1321;
     width: 20%;
     height: 104vh;
     display:flex;
     text-align: left;
+
 }
 
 /*
